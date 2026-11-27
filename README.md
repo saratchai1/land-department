@@ -8,6 +8,8 @@
 
 ![Command Center](docs/images/overview.jpg)
 
+![3D Cadastre](docs/images/cadastre.jpg)
+
 ## สิ่งที่ทดลองได้
 
 | โมดูล | การทดลอง |
