@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#123f40">
+  <meta name="description" content="เดโม่เชิงโต้ตอบ 6 แนวคิดยกระดับงานทะเบียนและรังวัดของกรมที่ดิน ด้วยข้อมูลจำลอง">
+  <title>LAND Intelligence — พื้นที่ทดลองกรมที่ดินอัจฉริยะ</title>
+  <link rel="icon" href="./public/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./src/styles.css">
+  <link rel="stylesheet" href="./src/registration-risk.css">
+  <link rel="stylesheet" href="./src/survey-scheduling.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปเนื้อหา</a>
+  <div id="app"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="guide-dialog" class="guide-dialog" aria-labelledby="guide-title"></dialog>
+  <dialog id="reset-dialog" class="small-dialog" aria-labelledby="reset-title">
+    <form method="dialog"><span class="eyebrow">DEMO CONTROLS</span><h2 id="reset-title">เริ่มข้อมูลสาธิตใหม่?</h2><p>ผลตรวจและการทดลองที่บันทึกในเบราว์เซอร์นี้จะถูกล้าง แล้วคืนค่าชุดตัวอย่างเริ่มต้น</p><div class="dialog-actions"><button class="button secondary" value="cancel">กลับไปทดลอง</button><button class="button primary" id="confirm-reset" value="reset">รีเซ็ตข้อมูลสาธิต</button></div></form>
+  </dialog>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
